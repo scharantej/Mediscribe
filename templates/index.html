@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physician's Scribe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Physician's Scribe</h1>
+
+<form action="/submit_details" method="POST">
+<label for="patient_name">Patient Name:</label>
+<input type="text" name="patient_name" id="patient_name" required>
+
+<label for="patient_age">Patient Age:</label>
+<input type="number" name="patient_age" id="patient_age" required>
+
+<label for="patient_symptoms">Patient Symptoms:</label>
+<textarea name="patient_symptoms" id="patient_symptoms" required></textarea>
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+---
+
+
